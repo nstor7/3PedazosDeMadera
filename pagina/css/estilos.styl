@@ -1,25 +1,49 @@
 @import "normalize.css"
-
+negro = #131313
+body
+    font-size 16px
 header
-    background #131313
+    background negro
     height 225px
     padding: 25px 0 0 0
     text-align center 
 nav
-    background green
+    background negro
     display inline-block
-    height 300px
+    font-size 1.5em
     position absolute
     top 240px
-    left -200px
-    width 200px
+    left -190px
+    width 180px
+    border 1px solid #323232
+    -webkit-transition .3s
+    &.activo
+        left 0
+    & ul
+        list-style none
+        padding 0
+        & li
+            line-height 50px
+            padding 0 0 0 10px
+            border-bottom 1px solid #323232
+            & a
+                color #e1e1e1
+                display block
+                text-decoration none
     & .menu
         background red
-        height 20px
-        width 60px
+        box-shadow: 1px 1px 5px #121212
+        font-size 0.8em
+        height 25px
+        width 110px
         position absolute
         top 0
-        left 195px
+        left 170px
         text-align center
-.activo
-    left auto
+        -webkit-transform: skewX(-20deg)
+    
+footer
+    background negro
+    height 50px
+    margin 0
+    padding 0
