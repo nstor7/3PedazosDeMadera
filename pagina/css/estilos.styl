@@ -1,19 +1,22 @@
 @import "normalize.css"
-negro = #131313
+chocolate = #5f3d1c
+amarillo = #fbae17
 body
     font-size 16px
 header
-    background negro
-    height 225px
-    padding: 25px 0 0 0
-    text-align center 
+    background chocolate
+    height 50px
+    padding: .5em 1em .5em 0
+    img
+        float right
 nav
-    background negro
+    background chocolate
     display inline-block
     font-size 1.5em
     position absolute
-    top 240px
+    top 55px
     left -190px
+    height 278px
     width 180px
     border 1px solid #323232
     -webkit-transition .3s
@@ -25,13 +28,13 @@ nav
         & li
             line-height 50px
             padding 0 0 0 10px
-            border-bottom 1px solid #323232
+            border-bottom 1px inset amarillo
             & a
-                color #e1e1e1
+                color amarillo
                 display block
                 text-decoration none
     & .menu
-        background red
+        background amarillo
         box-shadow: 1px 1px 5px #121212
         font-size 0.8em
         height 25px
@@ -43,7 +46,7 @@ nav
         -webkit-transform: skewX(-20deg)
     
 footer
-    background negro
+    background chocolate
     height 50px
     margin 0
     padding 0
