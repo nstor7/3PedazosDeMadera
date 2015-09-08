@@ -3,7 +3,7 @@
         <h2 class="titulo">{{disco.titulo}}</h2>
         <h3 class="tipo">{{disco.tipo}}</h3>
     </div>
-    <div class="imagen"></div>
+    <img src="{{disco.imagen}}" alt="{{disco.nombre}}" width="100%">
     <div class="detalle">
         <ul class="canciones">
             <li ng-repeat="cancion in disco.canciones">

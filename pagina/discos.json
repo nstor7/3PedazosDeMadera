@@ -4,6 +4,7 @@
         "titulo": "Peregrino",
         "tipo": "Sencillo",
         "fecha": "2013",
+        "imagen": "../imagenes/fondo.jpg",
         "canciones": [
             {
                 "nombre": "Pena de Tatiana",
@@ -20,6 +21,42 @@
             "Violín: Néstor Ibarra",
             "Cello: Alejandra González",
             "Percusión: Gilberto Guerra"
+        ],
+        "tecnicos": [
+            "Grabación y Mezcla: Néstor Ibarra",
+            "Fotografía: Claudia Guerra",
+            "Diseño Gráfico: Arturo Alzamora"
+        ]
+    },
+    {
+        "id": "002",
+        "titulo": "El Peor De Tus Deseos",
+        "tipo": "EP",
+        "fecha": "2015",
+        "imagen": "../imagenes/fotogal2.jpg",
+        "canciones": [
+            {
+                "nombre": "El Peor De Tus Deseos",
+                "duracion": "4:35"
+            },
+            {
+                "nombre": "Precencial",
+                "duracion": "3:46"
+            },
+            {
+                "nombre": "Las Palabras del Silencio",
+                "duracion": "3:46"
+            },
+            {
+                "nombre": "De Ti",
+                "duracion": "3:46"
+            }
+        ],
+        "musicos": [
+            "Voz: André Sandiford",
+            "Violín: Néstor Ibarra",
+            "Cello: Alejandra González",
+            "Percusión: Arturo Alzamora"
         ],
         "tecnicos": [
             "Grabación y Mezcla: Néstor Ibarra",
