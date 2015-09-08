@@ -1,2 +1,32 @@
-<h1>hola soy la página de Música que funciona exitosamente</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda doloremque odio aut itaque fugit eveniet deserunt sed. Iste culpa harum eaque atque, dolores quaerat molestiae accusantium, suscipit, eum quidem explicabo.</p>
+<article class="disco" ng-repeat="disco in discos">
+    <div class="encabezado">
+        <h2 class="titulo">{{disco.titulo}}</h2>
+        <h3 class="tipo">{{disco.tipo}}</h3>
+    </div>
+    <div class="imagen"></div>
+    <div class="detalle">
+        <ul class="canciones">
+            <li ng-repeat="cancion in disco.canciones">
+                <h3>> + {{cancion.nombre}}</h3>
+                <h4>{{cancion.duracion}}</h4>
+            </li>
+        </ul>
+        <h5 class="fecha">{{disco.fecha}}</h5>
+    </div>
+    <div>
+        <div class="creditos" ng-controller="tabController">
+            <h3 class="musicos" ng-click="selectTab(1)">Músicos</h3>
+            <h3 class="tecnicos" ng-click="selectTab(2)">Técnicos</h3>
+            <div class="musicosCreditos" ng-show="tab===1">
+                <p ng-repeat="musico in disco.musicos" >{{musico}}</p>
+                <h5 ng-click="selectTab(0)">cerrar</h5>
+            </div>
+            <div class="tecnicosCreditos" ng-show="tab===2">
+                <p ng-repeat="tecnico in disco.tecnicos">{{tecnico}}
+                </p>
+                <h5 ng-click="selectTab(0)">cerrar</h5>
+            </div>
+        </div>
+    </div>
+
+</article>

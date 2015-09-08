@@ -1,0 +1,30 @@
+[
+    {
+        "id": "001",
+        "titulo": "Peregrino",
+        "tipo": "Sencillo",
+        "fecha": "2013",
+        "canciones": [
+            {
+                "nombre": "Pena de Tatiana",
+                "duracion": "4:35"
+            },
+            {
+                "nombre": "Peregrino",
+                "duracion": "3:46"
+            }
+        ],
+        "musicos": [
+            "Voz: André Sandiford",
+            "Guitarra: Kate Agrazal",
+            "Violín: Néstor Ibarra",
+            "Cello: Alejandra González",
+            "Percusión: Gilberto Guerra"
+        ],
+        "tecnicos": [
+            "Grabación y Mezcla: Néstor Ibarra",
+            "Fotografía: Claudia Guerra",
+            "Diseño Gráfico: Arturo Alzamora"
+        ]
+    }
+]
