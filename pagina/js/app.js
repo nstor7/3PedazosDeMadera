@@ -3,12 +3,15 @@
 
     app.config(['$routeProvider', function ($routeProvider) {
       $routeProvider
-          .when('/', {
-            templateUrl: 'vistas/musica.html',
-            controller: 'discosController'
-          })
-      .otherwise({
-        redirectTo: '/'
-      });
-    }]);
+      .when('/', {
+        templateUrl: 'vistas/home.html'
+      })
+    .when('/musica', {
+      templateUrl: 'vistas/musica.html',
+      controller: 'discosController'
+    })
+.otherwise({
+  redirectTo: '/'
+    });
+}]);
 })();

@@ -5,49 +5,41 @@ amarillo = #fbae17
 body
     background #eee
     font-size 16px
+    padding 50px 48px 0 48px
+.frame
+    margin auto
+    width 1080px
 header
-    background chocolate
-    height 50px
-    margin-bottom 2em
-    padding: .5em 1em .5em 0
-    img
-        float right
-nav
-    background chocolate
     display inline-block
-    font-size 1.5em
-    position absolute
-    top 55px
-    left -190px
-    height 278px
+    vertical-align top
     width 180px
-    border 1px solid #323232
-    -webkit-transition .3s
-    &.activo
-        left 0
-    ul
-        list-style none
-        padding 0
-        li
-            line-height 50px
-            padding 0 0 0 10px
-            border-bottom 1px inset #e1e1e1
-            a
-                color #e1e1e1
-                display block
-                text-decoration none
-    .menu
-        background amarillo
-        box-shadow: 1px 1px 5px #121212
-        font-size 0.8em
-        height 25px
-        width 110px
-        position absolute
-        top 0
-        left 170px
-        text-align center
-        -webkit-transform: skewX(-20deg)
-    
+    img
+        margin-bottom 2em
+    nav
+        font-size 1em
+        ul
+            list-style none
+            padding 0
+            li
+                line-height 40px
+                padding 0 0 0 10px
+                a
+                    color chocolate
+                    text-decoration none
+//    .menu
+//        background amarillo
+//        box-shadow: 1px 1px 5px #121212
+//        font-size 0.8em
+//        height 25px
+//        width 110px
+//        position absolute
+//        top 0
+//        left 170px
+//        text-align center
+//        -webkit-transform: skewX(-20deg)
+main
+    display inline-block
+    width 895px
 footer
     background chocolate
     height 50px
@@ -55,6 +47,41 @@ footer
     padding 0
     
 //Elementos del contenido
+.imagenPrincipal
+    display block
+    margin 0
+    position relative
+    .title
+        display inline-block
+        position absolute
+        top 430px
+        h1
+            background-color chocolate
+            color amarillo
+            display inline-block
+            height 50px
+            line-height 50px
+            margin 0
+            padding 0 1em
+        h2
+            background-color amarillo
+            color chocolate
+            margin 0
+            padding 0 1em
+.banda
+    display block
+    margin-top 5em
+    .miembro
+        box-sizing border-box
+        display inline-block
+        padding 0 1em
+        vertical-align top
+        width 24.5%
+        h3
+            text-align center
+        img
+            border-radius 50%
+//vista de discos
 .disco
     display block
     margin 1em

@@ -7,22 +7,35 @@
     <title>3PM-Inicio</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="imagenes/logoPequeno.png" alt="3 Pedazos De Madera" height="80">
-    </header>
-        <nav id="nav">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Banda</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Música</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            <div id="menu" class="menu">Menú</div>
-        </nav>
-    <main ng-view>
-    </main>
-    <footer></footer>
+   <div class="frame">
+        <header>
+            <img class="logo" src="imagenes/logoPequeno.png" alt="3 Pedazos De Madera" height="120">
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Música</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+    <!--
+                <div id="menu" class="menu">
+                    Menú
+                </div>
+    -->
+            </nav>
+        </header>
+        <main ng-view>
+        </main>
+        <footer></footer>
+    </div>
     <script src="js/hammer.min.js"></script>
     <script src="js/responsive.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
